@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dwgxgvhij3gfx"]
+
+[ext_resource type="AudioStream" uid="uid://c5qpnfga41t4p" path="res://assets/sound/House In a Forest Loop.ogg" id="1_fvyft"]
+[ext_resource type="AudioStream" uid="uid://e1pqoi2co1lt" path="res://assets/sound/you_died.mp3" id="2_k4xj7"]
+
+[node name="MusicPlayer" type="AudioStreamPlayer" unique_id=1122055587]
+stream = ExtResource("1_fvyft")
+volume_db = -43.334
+autoplay = true
+
+[node name="die" type="AudioStreamPlayer" parent="." unique_id=1347458892]
+stream = ExtResource("2_k4xj7")
+volume_db = -38.606
